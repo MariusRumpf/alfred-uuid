@@ -1,0 +1,44 @@
+{
+  "name": "alfred-uuid",
+  "version": "1.0.0",
+  "description": "Alfred 3 Workflow - Generate UUIDs in v1 and v4",
+  "license": "MIT",
+  "repository": "mariusrumpf/alfred-uuid",
+  "author": {
+    "name": "Marius Rumpf",
+    "email": "marius@mariusrumpf.de",
+    "url": "https://github.com/mariusrumpf/alfred-uuid"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "xo",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "uuid",
+    "uuid4",
+    "uuid1",
+    "uuidv1",
+    "uuidv4",
+    "alfred",
+    "alfred-workflow",
+    "alfred3",
+    "alfred3-workflow",
+    "alfy"
+  ],
+  "dependencies": {
+    "alfy": "^0.7.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "xo": "^0.23.0"
+  }
+}
