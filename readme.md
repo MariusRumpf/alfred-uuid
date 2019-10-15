@@ -1,4 +1,7 @@
-# alfred-uuid [![Build Status](https://travis-ci.org/MariusRumpf/alfred-uuid.svg?branch=master)](https://travis-ci.org/MariusRumpf/alfred-uuid)
+# alfred-uuid
+
+<a href="https://github.com/MariusRumpf/alfred-uuid"><img alt="GitHub Actions status" src="https://github.com/MariusRumpf/alfred-uuid/workflows/CI/badge.svg"></a>
+
 
 > [Alfred](https://www.alfredapp.com) workflow to generate UUIDs in v1 and v4
 
