@@ -1,6 +1,8 @@
 'use strict';
 
 const alfy = require('alfy');
+const {v1: uuidv1} = require('uuid');
+const {v4: uuidv4} = require('uuid');
 
 const output = [];
 
@@ -38,9 +40,9 @@ function genUuids(generator, version, count = 4) {
 }
 
 if (alfy.input.toLowerCase() === 'v1') {
-	genUuids(require('uuid/v1'), 'v1');
+	genUuids(uuidv1, 'v1');
 } else if (alfy.input.toLowerCase() === 'v4') {
-	genUuids(require('uuid/v4'), 'v4');
+	genUuids(uuidv4, 'v4');
 } else {
 	addOutput('Generate v4 UUIDs', '', `${process.env.keyword} v4`, 'rerun');
 	addOutput('Generate v1 UUIDs', '', `${process.env.keyword} v1`, 'rerun');

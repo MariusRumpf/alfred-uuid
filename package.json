@@ -36,9 +36,9 @@
   ],
   "dependencies": {
     "alfy": "^0.9.1",
-    "uuid": "^3.3.3"
+    "uuid": "^8.1.0"
   },
   "devDependencies": {
-    "xo": "^0.25.3"
+    "xo": "^0.30.0"
   }
 }
