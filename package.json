@@ -1,6 +1,6 @@
 {
   "name": "alfred-uuid",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Alfred Workflow - Generate UUIDs in v1 and v4",
   "license": "MIT",
   "repository": "mariusrumpf/alfred-uuid",
