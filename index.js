@@ -11,7 +11,7 @@ function addAutocompleteOutput(title, subtitle, autocomplete) {
 		title,
 		subtitle,
 		autocomplete,
-		valid: false,
+		valid: false
 	});
 }
 
