@@ -13,7 +13,7 @@
 $ npm install --global alfred-uuid
 ```
 
-*Requires [Node.js 8+](https://nodejs.org) and [Alfred 3 or 4](https://www.alfredapp.com/) with the paid [Powerpack](https://www.alfredapp.com/powerpack/) upgrade.*
+*Requires [Node.js 10+](https://nodejs.org) and [Alfred 3 or 4](https://www.alfredapp.com/) with the paid [Powerpack](https://www.alfredapp.com/powerpack/) upgrade.*
 
 
 ## Usage
