@@ -35,10 +35,10 @@
     "alfy"
   ],
   "dependencies": {
-    "alfy": "^0.9.1",
+    "alfy": "^0.10.0",
     "uuid": "^8.1.0"
   },
   "devDependencies": {
-    "xo": "^0.30.0"
+    "xo": "^0.33.1"
   }
 }
