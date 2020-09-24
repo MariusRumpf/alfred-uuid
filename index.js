@@ -6,14 +6,12 @@ const {v4: uuidv4} = require('uuid');
 
 const output = [];
 
-function addOutput(title, subtitle, arg, action) {
+function addAutocompleteOutput(title, subtitle, autocomplete) {
 	output.push({
 		title,
 		subtitle,
-		arg,
-		variables: {
-			action
-		}
+		autocomplete,
+		valid: false,
 	});
 }
 
@@ -44,8 +42,8 @@ if (alfy.input.toLowerCase() === 'v1') {
 } else if (alfy.input.toLowerCase() === 'v4') {
 	genUuids(uuidv4, 'v4');
 } else {
-	addOutput('Generate v4 UUIDs', '', `${process.env.keyword} v4`, 'rerun');
-	addOutput('Generate v1 UUIDs', '', `${process.env.keyword} v1`, 'rerun');
+	addAutocompleteOutput(`${process.env.keyword} v4`, 'Generate v4 UUIDs', 'v4');
+	addAutocompleteOutput(`${process.env.keyword} v1`, 'Generate v1 UUIDs', 'v1');
 }
 
 alfy.output(output);

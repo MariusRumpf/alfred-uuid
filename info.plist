@@ -20,16 +20,6 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>E8A43A09-8C7E-4EB1-BB90-7BD8112ACE61</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
 		</array>
 		<key>9F81F7F5-56F2-4716-9987-561CD2F980D6</key>
 		<array>
@@ -67,22 +57,7 @@
 				<false/>
 			</dict>
 		</array>
-		<key>E8A43A09-8C7E-4EB1-BB90-7BD8112ACE61</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>A2E1A507-29B5-4CC0-8C27-0E868994AB62</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 	</dict>
-	<key>description</key>
-	<string>Alfred 3 Workflow - Generate UUIDs in v1 and v4</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -111,6 +86,8 @@
 				<false/>
 				<key>clipboardtext</key>
 				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
 				<key>transient</key>
 				<false/>
 			</dict>
@@ -119,7 +96,7 @@
 			<key>uid</key>
 			<string>B284B5DA-DBC1-4194-BFCC-E8A45979A5EF</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -128,6 +105,8 @@
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
 				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -166,7 +145,7 @@
 			<key>uid</key>
 			<string>384E9F22-93FF-4121-B42D-9C1395489161</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -208,48 +187,6 @@
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>script</key>
-				<string>tell application "Alfred 3" to search "{query}"</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>6</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>A2E1A507-29B5-4CC0-8C27-0E868994AB62</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>inputstring</key>
-				<string>{var:action}</string>
-				<key>matchcasesensitive</key>
-				<true/>
-				<key>matchmode</key>
-				<integer>0</integer>
-				<key>matchstring</key>
-				<string>rerun</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.filter</string>
-			<key>uid</key>
-			<string>E8A43A09-8C7E-4EB1-BB90-7BD8112ACE61</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -276,13 +213,6 @@
 			<key>ypos</key>
 			<integer>120</integer>
 		</dict>
-		<key>A2E1A507-29B5-4CC0-8C27-0E868994AB62</key>
-		<dict>
-			<key>xpos</key>
-			<integer>370</integer>
-			<key>ypos</key>
-			<integer>350</integer>
-		</dict>
 		<key>B284B5DA-DBC1-4194-BFCC-E8A45979A5EF</key>
 		<dict>
 			<key>xpos</key>
@@ -296,13 +226,6 @@
 			<integer>550</integer>
 			<key>ypos</key>
 			<integer>210</integer>
-		</dict>
-		<key>E8A43A09-8C7E-4EB1-BB90-7BD8112ACE61</key>
-		<dict>
-			<key>xpos</key>
-			<integer>280</integer>
-			<key>ypos</key>
-			<integer>380</integer>
 		</dict>
 	</dict>
 	<key>variables</key>
